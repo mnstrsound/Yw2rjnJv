@@ -1,0 +1,28 @@
+.owl-carousel {
+    width: 86vw;
+    height: 93vh;
+    margin: 0 auto;
+    .owl-stage-outer {
+        padding-top: 20.1vh;
+        overflow: visible;
+    }
+    &-counter {
+        text-align: center;
+        color: #fff;
+        div {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+}
+.owl-item {
+    .card {
+        transition: transform .3s;
+        transform: scale(.95);
+    }
+    &.active {
+        .card {
+            transform: scale(1);
+        }
+    }
+}

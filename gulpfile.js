@@ -5,11 +5,12 @@ var sass = require('gulp-sass');
 var jade = require('gulp-jade');
 var concat = require('gulp-concat');
 var browserSync = require('browser-sync').create();
+var bc = 'bower_components/';
 
 gulp.task('browser-sync', function() {
     browserSync.init({
         server: {
-            baseDir: "./"
+            baseDir: "./build"
         }
     });
 });
@@ -23,7 +24,8 @@ gulp.task('sass', function () {
 
 gulp.task('moveJSLibs', function () {
     gulp.src([
-            'bower_components/jquery/dist/jquery.min.js'
+            bc + 'jquery/dist/jquery.min.js',
+            bc + 'owl.carousel/dist/owl.carousel.min.js'
         ])
         .pipe(concat('libs.js'))
         .pipe(gulp.dest('build/js'));
@@ -31,7 +33,7 @@ gulp.task('moveJSLibs', function () {
 
 gulp.task('moveCSSLibs', function () {
     gulp.src([
-
+            bc + 'owl.carousel/dist/assets/owl.carousel.min.css'
         ])
         .pipe(concat('libs.css'))
         .pipe(gulp.dest('build/css'));

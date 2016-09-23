@@ -10,6 +10,15 @@ html
     body
         .wrapper
             .owl-carousel.owl-theme
+                each mentor, i in mentors
+                    div
+                        .card.card--mentor
+                            .card__image
+                                .card__photo(style="background-image: url(img/photos/" + mentor.image + ");")
+                            .card__bottom
+                                .card__name=mentor.name
+                                .card__school=mentor.activity
+                                .card__text=mentor.blockquote
                 div
                     .card.card--student
                         .card__image

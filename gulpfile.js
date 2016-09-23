@@ -6,6 +6,7 @@ var jade = require('gulp-jade');
 var concat = require('gulp-concat');
 var browserSync = require('browser-sync').create();
 var bc = 'bower_components/';
+var data = require('./template.json');
 
 gulp.task('browser-sync', function() {
     browserSync.init({
@@ -59,6 +60,7 @@ gulp.task('jade', function() {
     gulp.src('jade/**/*.jade')
         .pipe(jade({
             //pretty: true,
+            data: data
         }))
         .pipe(gulp.dest('build'));
 });

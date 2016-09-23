@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="155px" height="250px" viewBox="0 0 155 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="151" width="155" height="28" rx="14"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="155" height="28" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M13.1570315,104.340979 C9.7565969,68.8064376 35.939107,40 71.6373578,40 L84.3626422,40 C120.060869,40 146.242704,68.8137406 142.842968,104.340979 L133.763502,199.221405 C131.132692,226.713364 106.615667,249 79.0084865,249 L76.9915135,249 C49.381963,249 24.8667581,226.707622 22.236498,199.221405 L13.1570315,104.340979 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="130.279977" height="209" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M13.4554567,115.542651 C9.89020642,90.9424243 27.1567001,71 52.0028295,71 L103.99717,71 C128.851547,71 146.110521,90.9374043 142.544543,115.542651 L136.171025,159.519928 C132.210577,186.847017 106.615667,209 79.0084865,209 L76.9915135,209 C49.381963,209 23.7894285,186.847057 19.828975,159.519928 L13.4554567,115.542651 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="125.124757" height="138" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="56" y="184" width="41" height="31"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="41" height="31" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-16" transform="translate(-182.000000, -101.000000)">
+            <g id="Group" transform="translate(182.000000, 101.000000)">
+                <rect id="Rectangle-25" fill="#383838" x="47" y="15" width="18" height="44" rx="9"></rect>
+                <rect id="Rectangle-25-Copy-5" fill="#383838" x="38" y="31.1270637" width="18" height="34.8729363" rx="9"></rect>
+                <rect id="Rectangle-25-Copy-6" fill="#383838" x="96" y="31.1270637" width="18" height="34.8729363" rx="9"></rect>
+                <rect id="Rectangle-25-Copy-2" fill="#383838" x="87" y="15" width="18" height="44" rx="9"></rect>
+                <rect id="Rectangle-25-Copy" fill="#383838" x="65" y="0" width="22" height="59" rx="11"></rect>
+                <use id="Rectangle-26" stroke="#FFE9CF" mask="url(#mask-2)" stroke-width="10" fill="#D0BDA5" xlink:href="#path-1"></use>
+                <use id="Rectangle-Copy-8" stroke="#444444" mask="url(#mask-4)" stroke-width="10" fill="#444444" xlink:href="#path-3"></use>
+                <use id="Rectangle-Copy-9" stroke="#444444" mask="url(#mask-6)" stroke-width="10" fill="#FFEAD0" xlink:href="#path-5"></use>
+                <circle id="Oval" fill="#444444" cx="77" cy="70" r="17"></circle>
+                <use id="Rectangle" stroke="#444444" mask="url(#mask-8)" stroke-width="20" xlink:href="#path-7"></use>
+                <rect id="Rectangle-2" fill="#444444" x="51" y="59" width="53" height="23"></rect>
+                <rect id="Rectangle-27" fill="#FFE9CF" x="20" y="74" width="53" height="52.5"></rect>
+                <rect id="Rectangle-27-Copy" fill="#FFE9CF" x="81" y="74" width="54" height="59"></rect>
+                <rect id="Rectangle-24" fill="#444444" x="89" y="121" width="22" height="11" rx="5.5"></rect>
+                <rect id="Rectangle-24-Copy" fill="#444444" x="45" y="121" width="22" height="11" rx="5.5"></rect>
+                <path d="M47,150 C47,156.075132 51.9248678,161 58,161 C64.0751322,161 69,156.075132 69,150" id="Oval-13" fill="#422D14"></path>
+                <path d="M87,150 C87,156.075132 91.9248678,161 98,161 C104.075132,161 109,156.075132 109,150" id="Oval-13-Copy" fill="#422D14"></path>
+                <rect id="Rectangle-25-Copy-3" fill="#444444" x="105" y="66" width="9" height="17.96875" rx="4.5"></rect>
+                <rect id="Rectangle-25-Copy-7" fill="#444444" x="92" y="37" width="9" height="18" rx="4.5"></rect>
+                <rect id="Rectangle-25-Copy-8" fill="#444444" x="73" y="33" width="9" height="25" rx="4.5"></rect>
+                <rect id="Rectangle-25-Copy-9" fill="#444444" x="19" y="58" width="9" height="18" rx="4.5"></rect>
+                <rect id="Rectangle-25-Copy-4" fill="#444444" x="114" y="69.03125" width="9" height="17.96875" rx="4.5"></rect>
+                <rect id="Rectangle-25-Copy-10" fill="#444444" x="114" y="217.03125" width="9" height="17.96875" rx="4.5"></rect>
+                <rect id="Rectangle-25-Copy-11" fill="#444444" x="94" y="232.03125" width="9" height="17.96875" rx="4.5"></rect>
+                <rect id="Rectangle-25-Copy-12" fill="#444444" x="44" y="229" width="9" height="17.96875" rx="4.5"></rect>
+                <rect id="Rectangle-25-Copy-13" fill="#444444" x="27" y="211" width="9" height="17.96875" rx="4.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

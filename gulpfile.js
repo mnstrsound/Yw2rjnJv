@@ -50,6 +50,11 @@ gulp.task('moveImg', function () {
         .pipe(gulp.dest('build/img'));
 });
 
+gulp.task('moveFonts', function () {
+    gulp.src('fonts/**/*')
+        .pipe(gulp.dest('build/fonts'));
+});
+
 gulp.task('jade', function() {
     gulp.src('jade/**/*.jade')
         .pipe(jade({
@@ -58,11 +63,12 @@ gulp.task('jade', function() {
         .pipe(gulp.dest('build'));
 });
 
-gulp.task('build', ['moveJSLibs', 'moveCSSLibs', 'moveJS', 'moveImg','sass', 'jade']);
+gulp.task('build', ['moveJSLibs', 'moveCSSLibs', 'moveJS', 'moveImg', 'moveFonts', 'sass', 'jade']);
 
 gulp.task('watch', function () {
     gulp.watch('sass/**/*.scss', ['sass']);
     gulp.watch('js/**/*.js', ['moveJS']);
     gulp.watch('img/**/*', ['moveImg']);
+    gulp.watch('fonts/**/*', ['moveFonts']);
     gulp.watch('jade/**/*.jade', ['jade']);
 });

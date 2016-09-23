@@ -4,6 +4,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var jade = require('gulp-jade');
 var concat = require('gulp-concat');
+var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 var bc = 'bower_components/';
 var data = require('./template.json');
@@ -37,6 +38,10 @@ gulp.task('moveCSSLibs', function () {
             bc + 'owl.carousel/dist/assets/owl.carousel.min.css'
         ])
         .pipe(concat('libs.css'))
+        .pipe(autoprefixer({
+            browsers: ['last 5 versions'],
+            cascade: false
+        }))
         .pipe(gulp.dest('build/css'));
 });
 

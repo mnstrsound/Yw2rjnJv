@@ -10,15 +10,21 @@ html
     body
         .wrapper
             .owl-carousel.owl-theme
+                -  function double(s) { var i = s.indexOf('.'),s2='';s2=s.slice(0, i)+'@2x'+s.slice(i, s.length); return s2;}
                 each mentor, i in mentors
                     div
                         .card.card--mentor
                             .card__image
                                 .card__photo(style="background-image: url(img/photos/" + mentor.image + ");")
+                                .card__photo2x(style="background-image: url(img/photos/" + double(mentor.image) + ");")
                             .card__bottom
                                 .card__name=mentor.name
                                 .card__school=mentor.activity
                                 .card__text=mentor.blockquote
+                            .card__share
+                                a(href="img/photos/" + double(mentor.image))
+                                    span
+                                        | Поделиться
                 div
                     .card.card--student
                         .card__image
@@ -52,17 +58,3 @@ html
                                 | Даша Воронцова
                             .card__school
                             | Школа мобильного дизайна
-                div
-                    .card.card--mentor
-                        .card__image
-                        .card__bottom
-                            .card__name
-                                | Сергей Калабин
-                            .card__school
-                                | Куратор и преподаватель школы
-                                br
-                                | мобильного дизайна
-                            .card__text
-                                | Всё зависит от задачи,
-                                | ситуации, человека
-                                | и много чего ещё.

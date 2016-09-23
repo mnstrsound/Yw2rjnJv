@@ -3,119 +3,126 @@
     {
       "type": "mentor",
       "name": "СЕРЁЖА КАЛАБИН",
-      "image": "kalabin.svg",
+      "image": "kalabin.png",
       "activity": "Куратор и преподаватель школы мобильного дизайна",
-      "blockquote": "Всё зависит от задачи ситуации, человека и много чего ещё."
+      "blockquote": "Всё зависит от задачи, ситуации и много чего ещё."
     },
     {
       "type": "mentor",
       "name": "МАРИНА ДИЧЕНКО",
-      "image": "dichenko.svg",
+      "image": "dichenko.png",
       "activity": "Администратор школы мобильного дизайна",
       "blockquote": "Вопросы задаём в микрофон, сначала представляемся."
     },
     {
       "type": "mentor",
       "name": "МАРИНА БАУМ",
-      "image": "baum.svg",
+      "image": "baum.png",
       "activity": "Администратор проекта «Мобилизация»",
       "blockquote": "Ребята, не забываем, что это НДА."
     },
     {
       "type": "mentor",
       "name": "ЛОЛА КРИСТАЛИНСКАЯ",
-      "image": "kristalinskya.svg",
-      "activity": "Руководитель проекта",
+      "image": "kristalinskya.png",
+      "activity": "Руководитель проекта «Мобилизация»",
       "blockquote": "Дали мяч — фигачь."
     },
     {
       "type": "mentor",
       "name": "АНТОН ТЕН",
-      "image": "ten.svg",
+      "image": "ten.png",
       "activity": "Преподаватель школы мобильного дизайна",
       "blockquote": "А что, анимации сложно программировать?"
     },
     {
       "type": "mentor",
       "name": "СЕРЁЖА ТОМИЛОВ",
-      "image": "tomilov.svg",
+      "image": "tomilov.png",
       "activity": "Преподаватель и куратор школы мобильного дизайна",
       "blockquote": "Не нужно думать, что все хотят убить инвалидов."
     },
     {
       "type": "mentor",
       "name": "АНЯ ГЛАЗКИНА",
-      "image": "glazkina.svg",
+      "image": "glazkina.png",
       "activity": "Куратор школы мобильного дизайна",
       "blockquote": "Это не иконка, это ошибка соединения."
     },
     {
       "type": "mentor",
       "name": "ВОВА ТАГАКОВ",
-      "image": "tagakov.svg",
+      "image": "tagakov.png",
       "activity": "Руководитель и преподаватель школы мобильной разработки",
       "blockquote": "Люди вы хорошие, но код у вас так себе."
     },
     {
       "type": "mentor",
       "name": "НАТАША ЗВЕРЁК",
-      "image": "zverek.svg",
+      "image": "zverek.png",
       "activity": "Преподаватель проекта «Мобилизация»",
       "blockquote": "Выбирайте: обосраться или умереть."
     },
     {
       "type": "mentor",
       "name": "МИША ВЫСОКОВСКИЙ",
-      "image": "visokovskiy.svg",
+      "image": "visokovskiy.png",
       "activity": "Куратор школы менеджеров",
-      "blockquote": "Вы классные!"
+      "blockquote": "Давайте синхронизируемся"
     },
     {
       "type": "mentor",
       "name": "ИЛЬЯ АЛЕКСАНДРОВ",
-      "image": "alexandrov.svg",
+      "image": "alexandrov.png",
       "activity": "Куратор школы мобильного дизайна",
       "blockquote": "А дизайн-то где?"
     },
     {
       "type": "mentor",
       "name": "КОЛЯ ВАСЮНИН",
-      "image": "vasunin.svg",
+      "image": "vasunin.png",
       "activity": "Преподаватель и куратор школы мобильного дизайна",
       "blockquote": "Нууу так."
     },
     {
       "type": "mentor",
       "name": "ВАЛЕРА ЩУЧКИН",
-      "image": "schuchkin.svg",
+      "image": "schuchkin.png",
       "activity": "Куратор школы мобильного дизайна",
       "blockquote": "А кто здесь дизайнер?"
     },
     {
       "type": "mentor",
       "name": "САША МАМЫРИН",
-      "image": "mamirin.svg",
+      "image": "mamirin.png",
       "activity": "Куратор школы мобильного дизайна",
       "blockquote": "А почему не часть Диска?"
     },
     {
       "type": "mentor",
       "name": "ДЕН ТАЛАЛА",
-      "image": "talala.svg",
+      "image": "talala.png",
       "activity": "Куратор школы мобильного дизайна",
       "blockquote": "А где здесь Картинки?"
     },
     {
       "type": "mentor",
       "name": "ГОША БАРКАН",
-      "image": "barkan.svg",
+      "image": "barkan.png",
       "activity": "Преподаватель школы менеджеров",
       "blockquote": "Почему?"
     },
     {
       "type": "mentor",
+      "name": "САША КОТОВ",
+      "image": "kotov.png",
+      "activity": "Отвечает за рейтинг и опросы",
+      "blockquote": "Ребята, пройдите, пожалуйста, опрос."
+    },
+    {
+      "type": "mentor",
       "name": "МИША МИЛЬНИКОВ",
-      "image": "milnikov.svg",
+      "image": "milnikov.png",
       "activity": "Руководитель школы мобильного дизайна",
       "blockquote": "А почему бы не добавить больше фичей?"
     }

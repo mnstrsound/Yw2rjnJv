@@ -32,6 +32,15 @@ html
                 -    rand = Math.round(rand);
                 -    return rand;
                 - }
+                - function randomEmoji() {
+                - var rand = randomInteger(4, 8)
+                - var str = '';
+                - var emoji = '✋😱😱☺️😳😅😏😝😃😁👍😄😋😍😂😘😊🙌👌💪👏😌😚☝️😂😁😬😀😃😄😅😆😉😉😊🙂☺️😋😌😍😘😗😙😚😜😝😛🤑🤓😎🤗😏😱👻😺😸👋👋✌️✊👊💪🙏👼';
+                - for (var i = 0; i < rand; i++) {
+                -    var rand = randomInteger(0, emoji.length - 1); str += emoji[rand]
+                - }
+                - return str;
+                - }
                 - var persons = mentors.concat(students)
                 - var rand = randomInteger(2, 4);
                 - for (var i = 0; i < rand; i++) { persons.push({type: 'sticker'}) }
@@ -68,7 +77,7 @@ html
                         div
                             .card.card--student
                                 .card__image(style="background-image: url(img/photos/students/" + person.image + ");")
-                                .card__text(class=person.blockquote.length > 50 ? 'card__text--long' : '')=person.blockquote
+                                .card__text(class=person.blockquote.length > 50 ? 'card__text--long' : '')=person.blockquote.length > 0 ? person.blockquote : randomEmoji()
                                 .card__bottom
                                     .card__name=person.name
                                     .card__school=person.activity

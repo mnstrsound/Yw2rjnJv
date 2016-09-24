@@ -12,7 +12,7 @@
       "name": "МАРИНА ДИЧЕНКО",
       "image": "dichenko.png",
       "activity": "Администратор школы мобильного дизайна",
-      "blockquote": "Вопросы задаём в микрофон, сначала представляемся."
+      "blockquote": "Вопросы задаём в микрофон."
     },
     {
       "type": "mentor",
@@ -67,14 +67,14 @@
       "type": "mentor",
       "name": "МИША ВЫСОКОВСКИЙ",
       "image": "visokovskiy.png",
-      "activity": "Куратор школы менеджеров",
+      "activity": "Куратор в школе менеджеров",
       "blockquote": "Давайте синхронизируемся"
     },
     {
       "type": "mentor",
       "name": "ИЛЬЯ АЛЕКСАНДРОВ",
       "image": "alexandrov.png",
-      "activity": "Куратор школы мобильного дизайна",
+      "activity": "Куратор в школе мобильного дизайна",
       "blockquote": "А дизайн-то где?"
     },
     {
@@ -88,28 +88,28 @@
       "type": "mentor",
       "name": "ВАЛЕРА ЩУЧКИН",
       "image": "schuchkin.png",
-      "activity": "Куратор школы мобильного дизайна",
+      "activity": "Куратор в школе мобильного дизайна",
       "blockquote": "А кто здесь дизайнер?"
     },
     {
       "type": "mentor",
       "name": "САША МАМЫРИН",
       "image": "mamirin.png",
-      "activity": "Куратор школы мобильного дизайна",
+      "activity": "Куратор в школе мобильного дизайна",
       "blockquote": "А почему не часть Диска?"
     },
     {
       "type": "mentor",
       "name": "ДЕН ТАЛАЛА",
       "image": "talala.png",
-      "activity": "Куратор школы мобильного дизайна",
+      "activity": "Куратор в школе мобильного дизайна",
       "blockquote": "А где здесь Картинки?"
     },
     {
       "type": "mentor",
       "name": "ГОША БАРКАН",
       "image": "barkan.png",
-      "activity": "Преподаватель школы менеджеров",
+      "activity": "Преподаватель в школе менеджеров",
       "blockquote": "Почему?"
     },
     {
@@ -118,6 +118,83 @@
       "image": "kotov.png",
       "activity": "Отвечает за рейтинг и опросы",
       "blockquote": "Ребята, пройдите, пожалуйста, опрос."
+    },
+    {
+      "type": "mentor",
+      "name": "ХОЗЯЮШКА",
+      "image": "hozyaushka.png",
+      "activity": "Отвечает за питание и чистоту у студентов",
+      "blockquote": "Ну как вы там? Ничего не кушаете."
+    },
+    {
+      "type": "mentor",
+      "name": "АНДРЕЙ ГЕВАК",
+      "image": "gevak.png",
+      "activity": "Преподаватель в школе мобильного дизайна",
+      "blockquote": "Может всё-таки drawer?"
+    },
+    {
+      "type": "mentor",
+      "name": "МИША КОСАРЕВ",
+      "image": "kosarev.png",
+      "activity": "Руководитель школы менеджеров",
+      "blockquote": "Ну что я вам скажу про work-life balance?"
+    },
+    {
+      "type": "mentor",
+      "name": "ДАНЯ ШЕЛЕХОВ",
+      "image": "shelehov.png",
+      "activity": "Скрам-мастер",
+      "blockquote": "Об этом мы можем поговорить с вами за кофе."
+    },
+    {
+      "type": "mentor",
+      "name": "КИРИЛЛ АНАСТАСИН",
+      "image": "anastasin.png",
+      "activity": "Преподаватель в школе менеджеров",
+      "blockquote": "Презентация — мой конёк"
+    },
+    {
+      "type": "mentor",
+      "name": "ВСЕ ОРГАНИЗАТОРЫ",
+      "image": "vse.png",
+      "activity": "Руководители, преподаватели и кураторы.",
+      "blockquote": "Не вошли в MVP. Сорри."
+    },
+    {
+      "type": "mentor",
+      "name": "ОЛЕГ ЛЕВЧУК",
+      "image": "levchuk.png",
+      "activity": "Преподаватель в школе менеджеров",
+      "blockquote": "Лучший способ привести чувака из Гугла — зафэйкать!"
+    },
+    {
+      "type": "mentor",
+      "name": "ЮЛЯ КРИВОВА",
+      "image": "krivova.png",
+      "activity": "Администратор школы менеджеров",
+      "blockquote": "Нет алкоголю в рамках Мобилизации."
+    },
+    {
+      "type": "mentor",
+      "name": "ЮРА ПОДОРОЖНЫЙ",
+      "image": "podoroznik.png",
+      "activity": "Руководитель школы мобильной разработки",
+      "blockquote": "Ничего не вспомнили, но нарисовали!"
+    },
+    {
+      "type": "mentor",
+      "name": "ВИКА НЕФЕДОВА",
+      "image": "nefedova.png",
+      "activity": "Организатор проекта «Мобилизация»",
+      "blockquote": "Присылайте билеты!"
+    },
+    {
+      "type": "mentor",
+      "name": "КАТЯ ЮГОВА",
+      "image": "ugova.png",
+      "activity": "Администратор школы мобильной разработки",
+      "blockquote": "Ладно, котики, мама поехала на дачу."
     },
     {
       "type": "mentor",

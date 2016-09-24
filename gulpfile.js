@@ -6,6 +6,7 @@ var jade = require('gulp-jade');
 var concat = require('gulp-concat');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
+var rimraf = require('rimraf');
 var bc = 'bower_components/';
 var data = require('./template.json');
 
@@ -69,6 +70,19 @@ gulp.task('jade', function() {
         }))
         .pipe(gulp.dest('build'));
 });
+
+gulp.task('prepare', function () {
+    rimraf('surprise/www', function () {
+        gulp.src('build/**/*')
+            .pipe(gulp.dest('surprise/www'));
+    });
+});
+
+// gulp.task('build', function () {
+//     rimraf('build', function () {
+//
+//     });
+// });
 
 gulp.task('build', ['moveJSLibs', 'moveCSSLibs', 'moveJS', 'moveImg', 'moveFonts', 'sass', 'jade']);
 

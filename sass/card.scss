@@ -8,6 +8,11 @@
   overflow: hidden;
   box-shadow: 0 15px 33px rgba(0,0,0,.3);
   &--student {
+    .card__text {
+      &--long {
+        font-size: 1.3em;
+      }
+    }
     .card__image {
       width: 100%;
       height: 50vh;
@@ -58,7 +63,7 @@
   &--sticker {
     .card__image {
       display: flex;
-      height: 33.8vh;
+      height: 50vh;
       background-position: top center;
       background-size: 100% auto;
       background-repeat: no-repeat;

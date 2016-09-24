@@ -34,7 +34,7 @@ html
                 - }
                 - var persons = mentors.concat(students)
                 - var rand = randomInteger(2, 4);
-                - for (var i = 0; i < rand; i++) { mentors.push({type: 'sticker'}) }
+                - for (var i = 0; i < rand; i++) { persons.push({type: 'sticker'}) }
                 - persons = shuffle(persons)
                 - persons = shuffle(persons)
                 - persons = shuffle(persons)
@@ -68,7 +68,7 @@ html
                         div
                             .card.card--student
                                 .card__image(style="background-image: url(img/photos/students/" + person.image + ");")
-                                .card__text=person.blockquote
+                                .card__text(class=person.blockquote.length > 50 ? 'card__text--long' : '')=person.blockquote
                                 .card__bottom
                                     .card__name=person.name
                                     .card__school=person.activity

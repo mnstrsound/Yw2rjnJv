@@ -26,8 +26,9 @@ $(document).ready(function(){
 
         var $link = $(this);
         var options = {
-            message: 'Share It!',
-            subject: 'Share!',
+            message: 'Клевый стикер!',
+            subject: 'Клевый стикер!',
+            url: $link.attr('href'),
             files: $link.attr('href')
         }
         console.log(options);

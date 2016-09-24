@@ -10,7 +10,7 @@
   &--student {
     .card__text {
       &--long {
-        font-size: 1.3em;
+        font-size: 1.2rem;
       }
     }
     .card__image {
@@ -156,6 +156,9 @@
     color: #000;
     text-decoration: none;
     background: #fedd61;
+    &:active {
+      background: #e1bf41;
+    }
   }
 }
 
